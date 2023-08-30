@@ -1,0 +1,59 @@
+@media (max-width: 475px) {
+    body{
+        background-image: url('../images/bg-mobile.png');
+        background-size: contain;
+
+    }
+    #header {padding: 0 15px}
+    #header .nav-desk{display: none}
+    #header .nav-mobile{display: block; position: absolute;  left: -100%; transition: all 0.5s}
+    #header .nav-mobile ul {display: flex; flex-direction: column; justify-content: start; align-items: flex-start}
+    #header #nav-mobile{height: 0; overflow: hidden; width: 100%; background-color: white; left: 0; transition: height 1s }
+    #header #nav-mobile ul{height: 100%; width: 100%; padding: 0 10px; }
+    #header #nav-mobile ul li{margin: 10px 0; width: 30% }
+    #header .menu-header li a{justify-content: left}
+    #header .menu-header li:last-child a{background-color: white}
+    #header #nav-mobile .wrap-icon-close{display: flex; justify-content: end}
+    #header #nav-mobile .wrap-icon-close i{font-size: 20px; margin-right: 20px}
+    #header .icon-open-menu-mobile{display: block; font-size: 20px}
+    #main .wrap-slider-top .carousel-item img{height: 400px}
+    #main .wrap-slider-top .carousel-item span{font-size: 30px}
+    #concept .image-left{height: 300px; margin-bottom: 30px}
+    #carousel-top-page-first img{height: 300px}
+    #selected-design .container{flex-direction: column; justify-content: center; align-items: center; text-align: center}
+    #selected-design .container .button-main{margin-top: 15px}
+    .short-content{padding: 35px 0}
+    .padding-content{padding: 35px 0 }
+    #about-us img{margin-bottom: 20px}
+    #special-work .content-right{margin-top: 20px}
+    .padding-privacy{padding: 30px 15px}
+    .wrap-form-contact{padding: 30px 15px}
+    .wrap-breadcrumb p{font-size: 26px; margin-bottom: 5px}
+    #footer{text-align: center}
+    #footer .social{justify-content: center}
+    #header .btn-contact-mobile{display: block}
+    #header .menu-header li:last-child{display: none}
+    .wrap-breadcrumb{background-position: 20% 10%}
+    #header .menu-header li:nth-child(3),#header .menu-header li:nth-child(4){display: block}
+    .img-bird{width: 100%}
+    main#main section .container h3.special{letter-spacing: 10px}
+    .sub-title-content.special{font-size: 8.4vw}
+    #header.bg-white .menu-header li a{background-color: white}
+    #header.bg-white .menu-header li:last-child a{background-color: white}
+    main#main section#selected-design-img .img-bird{
+        width: 100%;
+    }
+    .img-bicycle{
+        width: 100%;
+    }
+    #swiper-wrap.works{width: 100%}
+    main#main section .container h3.needSpace{margin: 40px 0}
+    main#main section .container h3.needSpace::after{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+    .padding-content.works{padding-top: 0 !important}
+    .sub-title-content.special span{font-size: 25px}
+    main#main section#list-post .title-content.sub-special::after{font-size: 18px}
+}
