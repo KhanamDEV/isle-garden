@@ -181,7 +181,7 @@ function sendContact()
 <p> MAIL : <a href="isle2569.garden@gmail.com">isle2569.garden@gmail.com</a></p>
  <p>住所  : 岡山県岡山市中区江崎</p>
 <p> TEL   : 080-1649-5111</p>
-<p>Instagram: <a href="https://www.instagram.com/isle.garden/"><img src="'.assetR('images/ig.png').'" alt=""></a></p>
+<p>Instagram: <a href="https://www.instagram.com/isle.garden/"><img style="max-height: 100%; max-width: 20px" src="'.assetR('images/ig.png').'" alt=""></a></p>
 <p>===========================================</p>
 </div>
      ';
