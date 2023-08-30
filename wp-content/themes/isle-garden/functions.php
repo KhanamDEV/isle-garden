@@ -40,6 +40,11 @@ function asset($path)
     echo get_stylesheet_directory_uri() . "/assets/$path";
 }
 
+function assetR($path)
+{
+    return get_stylesheet_directory_uri() . "/assets/$path";
+}
+
 /**
  * @param $param
  */
@@ -118,7 +123,7 @@ function sendContact()
 
     $templateJa = '
      <div>
-  <p>清水恭成様</p>
+  <p>'.$dataContact['name'].'様</p>
 <p>お問い合わせありがとうございます。</p>
 
 <p>こちらは自動返信メールです。 <br>
@@ -176,7 +181,7 @@ function sendContact()
 <p> MAIL : <a href="isle2569.garden@gmail.com">isle2569.garden@gmail.com</a></p>
  <p>住所  : 岡山県岡山市中区江崎</p>
 <p> TEL   : 080-1649-5111</p>
-<p>Instagram: <a href="https://www.instagram.com/isle.garden/">isleアイル（エクステリア外構ガーデン岡山） (@isle.garden) • Instagram photos and videos</a></p>
+<p>Instagram: <a href="https://www.instagram.com/isle.garden/"><img src="'.assetR('images/ig.png').'" alt=""></a></p>
 <p>===========================================</p>
 </div>
      ';

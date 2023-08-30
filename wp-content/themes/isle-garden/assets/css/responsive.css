@@ -1,7 +1,6 @@
 @media (max-width: 475px) {
     body{
-        background-image: url('../images/bg-mobile.png');
-        background-size: contain;
+        background-size: cover;
 
     }
     #header {padding: 0 15px}
