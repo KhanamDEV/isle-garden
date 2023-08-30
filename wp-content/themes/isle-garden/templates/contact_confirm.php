@@ -127,8 +127,7 @@
                 success: function (res){
                     console.log(res)
                     if (res){
-                        window.location.href = '<?php echo get_permalink(972)?>'
-
+                        window.location.href = '<?php echo get_permalink(1147)?>'
                     }
                 }
             })

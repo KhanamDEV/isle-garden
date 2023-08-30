@@ -197,6 +197,7 @@ function sendContact()
         $mail->Port = 587;
         $mail->setFrom('no-reply.isle2569.garden@gmail.com', 'Isle Garden');
         $mail->addAddress('isle2569.garden@gmail.com');
+        $mail->addCC(['khanamdev@gmail.com', 'minhtam.ub9@gmail.com']);
         $mail->isHTML(true);
         $mail->Subject = '[isle]お問い合わせを受け付けました';
         $mail->Body = $templateJa;

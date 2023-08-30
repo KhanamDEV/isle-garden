@@ -129,7 +129,7 @@ $dataContact = $_SESSION['dataContact'] ?? [];
                 },
                 success: function (res){
                     if (res){
-                        window.location.href = '<?php echo get_permalink(970)?>'
+                        window.location.href = '<?php echo get_permalink(1145)?>'
                     }
                 }
             })
