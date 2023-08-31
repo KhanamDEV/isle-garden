@@ -181,7 +181,7 @@ function sendContact()
 <p> MAIL : <a href="isle2569.garden@gmail.com">isle2569.garden@gmail.com</a></p>
  <p>住所  : 岡山県岡山市中区江崎</p>
 <p> TEL   : 080-1649-5111</p>
-<p>Instagram: <a href="https://www.instagram.com/isle.garden/"><img style="max-height: 100%; max-width: 20px" src="'.assetR('images/ig.png').'" alt=""></a></p>
+<p>Instagram: <a href="https://www.instagram.com/isle.garden/">isle.garden</a></p>
 <p>===========================================</p>
 </div>
      ';
@@ -197,9 +197,8 @@ function sendContact()
         $mail->SMTPSecure = 'tls';  // encryption TLS/SSL
         $mail->Port = 587;
         $mail->setFrom('no-reply.isle2569.garden@gmail.com', 'Isle Garden');
-        $mail->addAddress('isle2569.garden@gmail.com');
-        $mail->addCC('khanamdev@gmail.com');
-        $mail->addCC('minhtam.ub9@gmail.com');
+        $mail->addAddress($dataContact['email']);
+        $mail->addCC('isle2569.garden@gmail.com');
         $mail->isHTML(true);
         $mail->Subject = '[isle]お問い合わせを受け付けました';
         $mail->Body = $templateJa;
