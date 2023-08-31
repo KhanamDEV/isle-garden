@@ -171,7 +171,6 @@ function sendContact()
                              <span style="display: block; width: 180px">お問い合わせ内容: </span>
                              <span style="display: block;" class="data-contact-content_inquiry">' . $dataContact['content_inquiry'] . '</span>
                          </div>
-  <p>テスト</p>
   
 <br>
   <br>
