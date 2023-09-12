@@ -175,6 +175,7 @@ function sendContact()
 <br>
   <br>
 <p>===========================================</p>
+<p>isle garden </p>
 <p> 合同会社   アイル</p>
  <p>URL  : <a href="https://isle-garden.com">https://isle-garden.com</a></p>
 <p> MAIL : <a href="isle2569.garden@gmail.com">isle2569.garden@gmail.com</a></p>
