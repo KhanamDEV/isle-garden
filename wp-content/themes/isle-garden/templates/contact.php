@@ -88,7 +88,7 @@ $dataContact = $_SESSION['dataContact'] ?? [];
                             <div class="form-check mb-5">
                                 <input style="height: 20px; width: 20px; margin-top: 0" required class="form-check-input" type="checkbox" value="" id="checkPrivacy">
                                 <label class="form-check-label" for="checkPrivacy" style="margin-left: 10px">
-                                    <a href="<?php echo get_permalink(32)?>" style="color: #920683">個人情報保護方針及び利用規約</a>をご確認の上、入力内容の確認をクリックしてください。
+                                    <a target="_blank" href="<?php echo get_permalink(32)?>" style="color: #920683">個人情報保護方針及び利用規約</a>をご確認の上、入力内容の確認をクリックしてください。
                                 </label>
                             </div>
                             <button class="btn btn-violet btn-submit-contact">入力内容の確認</button>
@@ -117,28 +117,28 @@ $dataContact = $_SESSION['dataContact'] ?? [];
         let dataForm = {};
         $('#contact-form').submit(function (e){
             e.preventDefault();
-            //dataForm = {};
-            //$(this).serializeArray().forEach(function (item){
-            //    dataForm[`${item.name}`] = item.value;
-            //});
-            //$(this).serializeArray().forEach(function (item){
-            //    $(`.data-contact-${item.name}`).text(item.value);
-            //});
-            //Swal.showLoading();
-            //console.log(dataForm);
-            //$.ajax({
-            //    url: '<?php //echo admin_url("admin-ajax.php") ?>//',
-            //    type: 'post',
-            //    data: {
-            //        action: 'confirm_user_contact',
-            //        data : dataForm
-            //    },
-            //    success: function (res){
-            //        if (res){
-            //            window.location.href = '<?php //echo get_permalink(1145)?>//'
-            //        }
-            //    }
-            //})
+            dataForm = {};
+            $(this).serializeArray().forEach(function (item){
+                dataForm[`${item.name}`] = item.value;
+            });
+            $(this).serializeArray().forEach(function (item){
+                $(`.data-contact-${item.name}`).text(item.value);
+            });
+            Swal.showLoading();
+            console.log(dataForm);
+            $.ajax({
+                url: '<?php echo admin_url("admin-ajax.php") ?>',
+                type: 'post',
+                data: {
+                    action: 'confirm_user_contact',
+                    data : dataForm
+                },
+                success: function (res){
+                    if (res){
+                        window.location.href = '<?php echo get_permalink(1145)?>'
+                    }
+                }
+            })
 
         });
     });
