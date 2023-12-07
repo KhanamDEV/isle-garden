@@ -1045,3 +1045,6 @@ main#main section .row .col-md-3:nth-of-type(n+3) {
 .box-category{background-color: transparent !important;}
 .box-category a{font-size: 20px !important;}
 .box-category:hover a{color: #920683}
+.content-post p {margin-bottom: 1rem; width: 100%; }
+.content-post p img{ margin: 0 auto; display: block; width: 100%}
+.content-post iframe{ margin: 0 auto; display: block; max-width: 100%}

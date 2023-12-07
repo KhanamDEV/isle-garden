@@ -16,19 +16,19 @@
                     <div class="swiper-slide">
                         <div class="slide-img">
                             <img src="<?php asset('images/mainvisual_pc1.jpg'); ?>" class="pcMode"><img
-                                    src="<?php asset('images/mainvisual_sp1.jpg'); ?>" class="spMode">
+                                src="<?php asset('images/mainvisual_sp1.jpg'); ?>" class="spMode">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="slide-img">
                             <img src="<?php asset('images/mainvisual_pc2.jpg'); ?>" class="pcMode"><img
-                                    src="<?php asset('images/mainvisual_sp2.jpg'); ?>" class="spMode">
+                                src="<?php asset('images/mainvisual_sp2.jpg'); ?>" class="spMode">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="slide-img">
                             <img src="<?php asset('images/mainvisual_pc3.jpg'); ?>" class="pcMode"><img
-                                    src="<?php asset('images/mainvisual_sp3.jpg'); ?>" class="spMode">
+                                src="<?php asset('images/mainvisual_sp3.jpg'); ?>" class="spMode">
                         </div>
                     </div>
                     <!--                    <div class="swiper-slide">-->
@@ -42,25 +42,25 @@
                     <div class="swiper-slide">
                         <div class="slide-img">
                             <img src="<?php asset('images/mainvisual_pc5.jpg'); ?>" class="pcMode"><img
-                                    src="<?php asset('images/mainvisual_sp5.jpg'); ?>" class="spMode">
+                                src="<?php asset('images/mainvisual_sp5.jpg'); ?>" class="spMode">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="slide-img">
                             <img src="<?php asset('images/mainvisual_pc6.jpg'); ?>" class="pcMode"><img
-                                    src="<?php asset('images/mainvisual_sp6.jpg'); ?>" class="spMode">
+                                src="<?php asset('images/mainvisual_sp6.jpg'); ?>" class="spMode">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="slide-img">
                             <img src="<?php asset('images/mainvisual_pc7.jpg'); ?>" class="pcMode"><img
-                                    src="<?php asset('images/mainvisual_sp7.jpg'); ?>" class="spMode">
+                                src="<?php asset('images/mainvisual_sp7.jpg'); ?>" class="spMode">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="slide-img">
                             <img src="<?php asset('images/mainvisual_pc8.jpg'); ?>" class="pcMode"><img
-                                    src="<?php asset('images/mainvisual_sp8.jpg'); ?>" class="spMode">
+                                src="<?php asset('images/mainvisual_sp8.jpg'); ?>" class="spMode">
                         </div>
                     </div>
                 </div>
@@ -154,7 +154,7 @@
                 <p class="description-content">新築戸建て外構からお庭リフォームまで対応致します。<br>個人住宅、店舗、新築外構、外構・庭リフォーム、庭園、イングリッシュガーデン、アウトドアリビング、カーポート、ポスト、玄関、ウッドデッキ、タイルテラス、サイクルポート、ストックヤード、日除け、プール、宅配ボックス、ガーデンテラス
                     などエクステリア全般（これまでに15年以上事業実績があります）</p>
                 <p class="description-content">ご不明な点や、ご相談等ございましたら、お気軽にこちらお問い合わせフォームよりご連絡ください。<br>お電話でお問い合わせ（<a
-                            href="tel:08016495111">080-1649-5111</a>）も受け付けております。</p>
+                        href="tel:08016495111">080-1649-5111</a>）も受け付けております。</p>
                 <p class="slide_btn"><a href="<?php echo get_permalink(29) ?>"><span class="font-en">CONTACT</span>
                         <svg xmlns="http://www.w3.org/2000/svg" class="svg-arrow "
                              xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
@@ -187,8 +187,10 @@
 
         <section id="corporate">
             <div class="container">
-                <h3 class="title-content " data-subtitle="所在地">CORPORATE</h3>
-                <p class="description-content2">合同会社アイル<br>岡山県岡山市中区江崎<br>TEL <a href="tel:08016495111">080-1649-5111</a><br>MAIL
+                <h3 class="title-content " data-subtitle="会社情報">CORPORATE</h3>
+                <p class="description-content2">isle　アイル合同会社
+                    <br>〒702-8005　岡山県岡山市中区江崎157
+                    <br>TEL <a href="tel:08016495111">080-1649-5111</a><br>MAIL
                     <a href="mailto:isle2569.garden@gmail.com">isle2569.garden@gmail.com</a><br>二級建築士事務所 第6339号</p>
             </div>
         </section>

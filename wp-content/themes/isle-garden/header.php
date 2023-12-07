@@ -26,22 +26,16 @@
     <link rel="stylesheet" type="text/css" href="<?php asset('css/swiper-bundle.min.css'); ?>">
     <link rel="stylesheet" type="text/css" href="<?php asset('css/jquery.fancybox.min.css'); ?>">
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TN1C4VHHMP"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J1MHEW5VNY"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-TN1C4VHHMP');
+        gtag('config', 'G-J1MHEW5VNY');
     </script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5WHJ0QSG9B"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-5WHJ0QSG9B');
-</script>
+
 </head>
 
 <body>

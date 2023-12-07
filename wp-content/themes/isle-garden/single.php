@@ -70,18 +70,25 @@ get_header();
                     </div>
                 </div>
             <?php } ?>
-            <div class="row">
-                    <?php foreach ($galleries as $gallery){ ?>
-                        <div class="<?php echo $isWork ? 'col-md-12 mb-3' : 'col-md-4' ?>  ">
-                            <a class="item-post" href="<?php echo $gallery; ?>" title=""
-                               data-fancybox>
-                                <figure>
-                                    <img class="w-100" src="<?php echo $gallery; ?>" alt="">
-                                </figure>
-                            </a>
-                        </div>
-                    <?php }?>
+            <div class="row content-post">
+                <?php
+                    if ($isWork){
+                        the_content();
 
+                    } else { ?>
+                        <?php foreach ($galleries as $gallery){ ?>
+                            <div class="<?php echo $isWork ? 'col-md-12 mb-3' : 'col-md-4' ?>  ">
+                                <a class="item-post" href="<?php echo $gallery; ?>" title=""
+                                   data-fancybox>
+                                    <figure>
+                                        <img class="w-100" src="<?php echo $gallery; ?>" alt="">
+                                    </figure>
+                                </a>
+                            </div>
+                        <?php }?>
+                <?php
+                    }
+                ?>
                 </div>
 
 
